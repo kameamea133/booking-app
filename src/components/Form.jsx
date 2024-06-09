@@ -22,7 +22,7 @@ export default function Form() {
 
 
   return (
-    <div className='max-w[400px] w-full bg-white p-6 rounded-md shadow-md'>
+    <div className='max-w-[400px] w-full bg-white p-6 rounded-md shadow-xl'>
       <h1 className='text-4xl mb-4 font-bold uppercase text-amber-600'>Réservations</h1>
       <form onSubmit={handleSubmit(onSubmit)} noValidate>
         <div className="mb-4">
